@@ -14,8 +14,8 @@ st.write("this is just a homepage nothing to see lol")
 # 간단한 데이터프레임
 st.header("My Favorites")
 df = pd.DataFrame({
-    " ": ["song", "movie", "game", "language"],
-    " ": ["Imposter - Sightless in Shadow","K-Pop Demon Hunters","Arras.io","English or spanish"]
+    "category": ["song", "movie", "game", "language"],
+    "-": ["Imposter - Sightless in Shadow","K-Pop Demon Hunters","Arras.io","English or spanish"]
 })
 st.dataframe(df)
 
