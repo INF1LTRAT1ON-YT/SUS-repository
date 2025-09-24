@@ -24,6 +24,6 @@ st.dataframe(df)
 if st.button("Click button"):
     st.success("Why are you still here?")
 
-url = "[url="https://i.ibb.co/FqWTknbC/Running-dictionary-1-star.png"
+url = "https://i.ibb.co/FqWTknbC/Running-dictionary-1-star.png"
 # 이미지 표시
 st.image(url, caption="my 31,780,475 score in vocab.com ")
