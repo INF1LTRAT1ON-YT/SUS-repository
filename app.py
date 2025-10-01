@@ -39,7 +39,12 @@ df = pd.DataFrame({
 })
 st.dataframe(df)
 
+st.header("My Favorite Youtube")
 st.markdown("[Undertale Help From The Void | Full Animation ](https://www.youtube.com/watch?v=crXZxB9pd_M)")
+
+st.markdown("[Undertale Help From The Void | Phase 6 | Full Animation ](https://www.youtube.com/watch?v=fysORV0niy8)")
+
+st.markdown("[Undertale: Disbelief Trio Remastered | Full Animation ](https://www.youtube.com/watch?v=9R9nQDaf-mo&t=337s)")
 
 # 버튼 이벤트
 if st.button("Click button"):
