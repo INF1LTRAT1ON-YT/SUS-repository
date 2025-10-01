@@ -10,14 +10,15 @@ st.set_page_config(page_title="INF1LTRAT1ON's Homepage", page_icon="🚀", layou
 st.title("🚀 My First Homepage (made by INF1LTRAT1ON)")
 st.write("this is just a homepage nothing to see lol")
 
-st.markdown("""<link href="https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+st.markdown("""
+            <link href="https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
             <style>
 /* 앱 전체에 폰트 적용 */
 html, body, [class*="css"] {
     font-family: 'Share', sans-serif;
 }
 </style>
-            """)
+            """, unsafe_allow_html=True)
 
 # 간단한 데이터프레임
 st.header("My Favorites")
