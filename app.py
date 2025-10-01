@@ -46,6 +46,11 @@ st.markdown("[Undertale Help From The Void | Phase 6 | Full Animation ](https://
 
 st.markdown("[Undertale: Disbelief Trio Remastered | Full Animation ](https://www.youtube.com/watch?v=9R9nQDaf-mo&t=337s)")
 
+import time
+with st.spinner('로딩 중...'):
+    time.sleep(1.2)
+st.toast("완료!", icon="✅")
+
 
 # 버튼 이벤트
 if st.button("Click button"):
