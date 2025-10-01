@@ -49,7 +49,7 @@ st.markdown("[Undertale: Disbelief Trio Remastered | Full Animation ](https://ww
 import time
 with st.spinner('로딩 중...'):
     time.sleep(1.2)
-st.toast("완료!", icon="✅")
+st.toast("hello!", icon="✅")
 
 
 # 버튼 이벤트
