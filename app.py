@@ -39,6 +39,7 @@ df = pd.DataFrame({
 })
 st.dataframe(df)
 
+st.markdown("[Undertale Help From The Void | Full Animation ](https://www.youtube.com/watch?v=crXZxB9pd_M)")
 
 # 버튼 이벤트
 if st.button("Click button"):
