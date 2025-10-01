@@ -46,6 +46,7 @@ st.markdown("[Undertale Help From The Void | Phase 6 | Full Animation ](https://
 
 st.markdown("[Undertale: Disbelief Trio Remastered | Full Animation ](https://www.youtube.com/watch?v=9R9nQDaf-mo&t=337s)")
 
+
 # 버튼 이벤트
 if st.button("Click button"):
     st.success("Why are you still here?")
@@ -53,3 +54,5 @@ if st.button("Click button"):
 url = "https://i.ibb.co/FqWTknbC/Running-dictionary-1-star.png"
 # 이미지 표시
 st.image(url, caption="my 31,780,475 score in vocab.com ")
+
+st.markdown("[My Profile](https://www.vocabulary.com/profiles/B1W512HAJT2GD8)")
